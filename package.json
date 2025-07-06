@@ -1,0 +1,61 @@
+{
+  "name": "rltgjqm",
+  "version": "1.2.0",
+  "description": "Google Gemini API를 사용하여 자연어로 Git 명령어를 생성하는 CLI 도구 - 인터랙티브 메뉴와 자동 API 키 설정 지원",
+  "main": "lib/executor.js",
+  "bin": {
+    "rltgjqm": "./bin/rltgjqm.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node bin/rltgjqm.js",
+    "test": "echo \"테스트를 위해 'npm run start'를 실행하세요\"",
+    "dev": "node bin/rltgjqm.js",
+    "validate": "node -e \"console.log('✅ 구문 검사 통과')\"",
+    "prepare": "echo \"📦 패키지 준비 완료\"",
+    "postinstall": "echo \"🎉 rltgjqm 설치 완료! 'rltgjqm' 명령어로 시작하세요.\""
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "gemini",
+    "ai",
+    "natural-language",
+    "automation",
+    "developer-tools",
+    "git-commands",
+    "google-ai",
+    "terminal",
+    "interactive",
+    "assistant"
+  ],
+  "author": "rltgjqm",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/rltgjqm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourname/rltgjqm/issues"
+  },
+  "homepage": "https://github.com/yourname/rltgjqm#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.6"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ]
+}

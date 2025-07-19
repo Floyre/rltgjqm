@@ -2,7 +2,7 @@
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/99bb709b-6b11-4594-b04d-4fe535ea64eb" />
 
-<h3>`아 ㅋㅋ 이젠 커밋도 브랜치도 전략적으로 한다 ㅋㅋ 취업은 전쟁임 ㅇㅇ` </h3>
+<h3>아 ㅋㅋ 이젠 커밋도 브랜치도 전략적으로 한다 ㅋㅋ 취업은 전쟁임 ㅇㅇ </h3>
 
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/72be3c8f-de2a-47cf-9287-07e2923841cf" /><br/>

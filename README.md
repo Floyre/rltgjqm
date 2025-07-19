@@ -1,11 +1,19 @@
 # rltgjqm
 
-Google Gemini API를 사용하여 자연어로 Git 명령어를 생성하는 CLI 도구입니다.
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/99bb709b-6b11-4594-b04d-4fe535ea64eb" />
+
+아 ㅋㅋ 이젠 커밋도 브랜치도 전략적으로 한다 ㅋㅋ 취업은 전쟁임 ㅇㅇ
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/72be3c8f-de2a-47cf-9287-07e2923841cf" />
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/dde93553-ddff-4dd4-8b8e-2c2e28760e5a" />
+
 
 ## 🚀 설치
 
 ```bash
-npm install -g rltgjqm
+npm install -g rltgjqm<img width="571" height="512" alt="image" src="https://github.com/user-attachments/assets/b2741062-5194-407b-93f2-9f2c0eeb2180" />
+
 ```
 
 ## 🎯 빠른 시작

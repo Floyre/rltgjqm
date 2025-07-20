@@ -1,10 +1,11 @@
 {
   "name": "rltgjqm",
   "version": "1.2.0",
-  "description": "Google Gemini API를 사용하여 자연어로 Git 명령어를 생성하는 CLI 도구 - 인터랙티브 메뉴와 자동 API 키 설정 지원",
+  "description": "ChatGPT와 Gemini API를 사용하여 자연어로 Git 명령어를 생성하는 CLI 도구 - 인터랙티브 메뉴와 자동 API 키 설정 지원",
   "main": "lib/executor.js",
   "bin": {
-    "rltgjqm": "./bin/rltgjqm.js"
+    "rltgjqm": "./bin/rltgjqm.js",
+    "깃허브": "./bin/rltgjqm.js"
   },
   "directories": {
     "lib": "lib"
@@ -15,7 +16,7 @@
     "dev": "node bin/rltgjqm.js",
     "validate": "node -e \"console.log('✅ 구문 검사 통과')\"",
     "prepare": "echo \"📦 패키지 준비 완료\"",
-    "postinstall": "echo \"🎉 rltgjqm 설치 완료! 'rltgjqm' 명령어로 시작하세요.\""
+    "postinstall": "echo \"🎉 rltgjqm 설치 완료! 'rltgjqm' 또는 '깃허브' 명령어로 시작하세요.\""
   },
   "keywords": [
     "git",
@@ -50,7 +51,8 @@
     "chalk": "^4.1.2",
     "commander": "^14.0.0",
     "execa": "^5.1.1",
-    "inquirer": "^8.2.6"
+    "inquirer": "^8.2.6",
+    "openai": "^4.52.0"
   },
   "preferGlobal": true,
   "files": [

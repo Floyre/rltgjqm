@@ -1,7 +1,7 @@
 {
   "name": "rltgjqm",
   "version": "1.2.0",
-  "description": "ChatGPT와 Gemini API를 사용하여 자연어로 Git 명령어를 생성하는 CLI 도구 - 인터랙티브 메뉴와 자동 API 키 설정 지원",
+  "description": "Google Gemini API를 사용하여 자연어로 Git 명령어를 생성하는 CLI 도구 - 인터랙티브 메뉴와 자동 API 키 설정 지원",
   "main": "lib/executor.js",
   "bin": {
     "rltgjqm": "./bin/rltgjqm.js",
@@ -22,12 +22,13 @@
     "git",
     "cli",
     "gemini",
+    "google-gemini",
+    "google-ai",
     "ai",
     "natural-language",
     "automation",
     "developer-tools",
     "git-commands",
-    "google-ai",
     "terminal",
     "interactive",
     "assistant"
